@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.body{
+    background-color: rgb(243,243,243);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+}
+
+.logo{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+height: 270px;
+margin-left: -80px;
+}
+
+.logo img{
+    width: 250px;
+    height: 110px;
+    margin: -22px;
+}
+
+.logo p{
+    font-size: 26px;
+    line-height: 32px;
+    text-align: left;
+    width: 99%;
+}
+
+.continue {
+    display: flex;
+    min-height: 34rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.caixa{
+    background-color: white;
+    width: 380px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 10px 20px 40px 20px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa input{
+    width: 348px;
+    height: 22px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+}
+
+.caixa .Entrar{
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    width: 380px;
+    line-height: 48px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.caixa .Entrar:hover{
+    background-color: #2572d6;
+}
+
+.caixa .Esqueceu{
+    width: 100%;
+    text-align: center;
+    margin-bottom: none;
+}
+
+.caixa a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none; 
+    
+}
+
+.caixa a:hover{
+    text-decoration: underline;
+}
+
+.caixa .linha{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.caixa .CriarNovaConta{
+    background-color: #42b72a;
+    width: 380px;
+    border-radius: 6px;
+    border: none;
+    margin: auto;
+    width: 50%;
+    line-height: 48px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 16px;
+    justify-content: center;
+    cursor: pointer;
+}
+.caixa .CriarNovaConta:hover{
+    background-color: #449e32;
+}
+
+.subs{
+    width: 380px;
+    margin-left: 80px;
+    text-align: center;
+    margin-top: none;
+    font-size: 14px;
+}
+
+.subs a{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(206, 205, 205);
+    border-top: 1px solid black;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #1877f2;
+    text-decoration: underline;
+    
+}
