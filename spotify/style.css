@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+
+.cabeca{
+    display: flex;
+    margin: auto;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.cabeca img{
+    width: 130px;
+    height: 41px;
+}
+
+.lista{
+    font-weight: 600;
+    font-size: 14px;
+    gap: 30px;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+.backApresenta{
+    background-color: #993399;
+}
+
+.apresenta{
+    display: flex;
+    margin: auto;
+    width: 84%;
+    color: white;
+}
+
+.apresenta .titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.apresenta img{
+    width: 400px;
+    height: 399px;
+    margin:10px;
+}
+
+.titulos h1{
+    font-size: 40px;
+}
+
+.titulos p{
+    font-size: 24px;
+}
+
+.bt1{
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.bt1:hover{
+    transform: scale(1.05);
+    background-color: black;
+}
+
+.bt2{
+    width: 155px;
+    height: 53px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid whitesmoke;
+    margin-right: 5px;
+}
+.bt2:hover{
+transform: scale(1.05);
+background-color: rgba(0, 0, 0, 0.068);
+}
+
+
+.titulos span{
+    font-size: 10px;
+}
+
+.caract h1{
+    margin-top: 85px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.premium{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.premium li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.premium li p{
+    margin-top: 16px;
+}
+
+.pz{
+    font-weight: 700;
+    
+}
+
+.premium img{
+    width: 140px;
+    height: 140px;
+}
+
+.l1{
+    list-style: none;
+    margin: 0px auto 40px;
+}
+
+
+.l2{
+    list-style: none;
+    margin: 0px auto 40px;
+}
+
+.l3{
+    list-style: none;
+    margin: 0px auto 40px;
+}
+
+.l4{
+    list-style: none;
+    margin: 0px auto 40px;
+}
+
+.BackPlanos{
+    background-color: rgb(243,243,243);
+}
+
+.BackPlanos h1{
+    margin-top: 85px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.BackPlanos span{
+    display: block;
+    margin-top: 2px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.listplanos{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 700px;
+    padding-bottom: 60px;
+}
+
+.itemplano{
+    border-radius: 10px 10px 10px 10px;
+    padding: 13px;
+    width: 250px;
+    background-color: white;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    box-shadow: rgb(255 255 255) 0px -9px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.itemplano ul li{
+    display: inline;
+}
+
+.itemplano ul h5{
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 114, 234);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin: 0px 4px 10px 0px;
+}
+
+.itemplano ul .p1{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    font-weight: 600;
+    margin: 0px 4px 10px 0px;
+    color: rgb(13, 114, 234);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 114, 234);
+}
+
+.itemplano p{
+    margin: 7px 4px 10px 0px;
+}
+
+.linha{
+    align-self: stretch;
+    border-color: rgb(204, 204, 204);
+    margin: 0px 0px 20px 0px;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+}
+.check span{
+    margin: 0 0 3px 0px;
+}
+
+.alinha{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.botao{
+    height: 550px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 240px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border-radius: 500px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Bot:hover{
+    transform: scale(1.05);
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(182, 182, 182);
+}
+
+.footer{
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
