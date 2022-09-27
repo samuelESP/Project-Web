@@ -6,20 +6,18 @@
 
 .body{
     background-color: rgb(243,243,243);
-    width: 100%;
-    min-height: 100vh;
 }
 
-.wrapper{
+.wrapper{/*Conteúdo central da tela*/
+    padding-bottom: 112px;
+    padding-top: 72px;
+    width: 980px;
     display: flex;
     align-items: center;
-    justify-content: start;
-    width: 60%;
-    height: 100vh;
-    margin: auto;
+    margin: 0 auto;
 }
 
-.logo{
+.logo{/*Texto com a logo do facebook*/
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -40,28 +38,28 @@ margin-left: -80px;
     width: 99%;
 }
 
-.continue {
-    display: flex;
+.continue {/*Janela de login e subs*/
+    display: grid;
     min-height: 34rem;
-    flex-direction: column;
+    grid-template-rows: 390px 23px;
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
 }
 
-.caixa{
+.caixa{/*Janela de login*/
     background-color: white;
     width: 380px;
     height: 300px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
-    padding: 10px 20px 40px 20px;
+    padding: 20px 20px 40px 20px;
     margin-left: 80px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
 }
 
-.caixa input{
+.caixa input{/*Pega o input de Email e senha*/
     width: 348px;
     height: 22px;
     margin-bottom: 16px;
@@ -71,7 +69,7 @@ margin-left: -80px;
     border: 1px solid #dddfe2;
 }
 
-.caixa .Entrar{
+.caixa .Entrar{/*Estilização do botão de Entrar*/
     background-color: #1877f2;
     border-radius: 6px;
     border: none;
@@ -86,13 +84,13 @@ margin-left: -80px;
     background-color: #2572d6;
 }
 
-.caixa .Esqueceu{
+.caixa .Esqueceu{/*EStilização do opção de "Esqueceu a senha?"*/
     width: 100%;
     text-align: center;
     margin-bottom: none;
 }
 
-.caixa a{
+.caixa a{/*EStilização do opção de "Esqueceu a senha?"*/
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
@@ -104,7 +102,7 @@ margin-left: -80px;
     text-decoration: underline;
 }
 
-.caixa .linha{
+.caixa .linha{/*Linha de corte*/
     align-items: center;
     border-bottom: 1px solid #dadde1;
     display: flex;
@@ -112,7 +110,7 @@ margin-left: -80px;
     text-align: center;
 }
 
-.caixa .CriarNovaConta{
+.caixa .CriarNovaConta{/*Botão de "Criar nova conta"*/
     background-color: #42b72a;
     width: 380px;
     border-radius: 6px;
@@ -130,7 +128,7 @@ margin-left: -80px;
     background-color: #449e32;
 }
 
-.subs{
+.subs{/*subtitulos da caixa*/
     width: 380px;
     margin-left: 80px;
     text-align: center;
@@ -145,7 +143,7 @@ margin-left: -80px;
     color: black;
 }
 
-.footer{
+.footer{/*Rodapé do programa*/
     display: flex;
     justify-content: space-around;
     background-color: rgb(206, 205, 205);
